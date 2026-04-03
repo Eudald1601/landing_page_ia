@@ -326,7 +326,7 @@ export default function Home() {
             <p className="contact-note">
               O contacta directament a{" "}
               <a href="mailto:brilscreuseudald@gmail.com" className="link-amber">
-                tuemail@example.com
+                brilscreuseudald@gmail.com
               </a>
             </p>
           </div>
