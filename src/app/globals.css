@@ -812,6 +812,7 @@ strong { font-weight: 700; }
 }
 
 @media (max-width: 640px) {
+  .container { padding: 0 18px; }
   .section { padding: 4rem 0; }
   .hero    { padding: 5.5rem 0 4rem; }
   .hero-stats {
@@ -823,4 +824,13 @@ strong { font-weight: 700; }
   .fit-grid      { grid-template-columns: 1fr; }
   .process-grid  { grid-template-columns: 1fr; }
   .hero-scroll-hint { display: none; }
+}
+
+@media (max-width: 480px) {
+  .nav-inner { flex-direction: column; align-items: flex-start; gap: 0.5rem; }
+  .hero-title { font-size: clamp(2.4rem, 9vw, 3rem); }
+  .hero-sub { font-size: 0.95rem; }
+  .btn-primary { width: 100%; justify-content: center; text-align: center; }
+  .services-grid, .problems-grid { gap: 1rem; }
+  .about-card { padding: 2rem 1.5rem; }
 }
