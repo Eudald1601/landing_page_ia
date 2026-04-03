@@ -319,13 +319,13 @@ export default function Home() {
               vols explorar què pot fer la IA pel teu negoci, podem fer una trucada
               curta de 20 minuts i veure-ho plegats.
             </p>
-            <a href="mailto:tuemail@example.com" className="btn-primary contact-cta">
+            <a href="mailto:brilscreuseudald@gmail.com" className="btn-primary contact-cta">
               Escriu-me ara
               <span className="btn-arrow">→</span>
             </a>
             <p className="contact-note">
               O contacta directament a{" "}
-              <a href="mailto:tuemail@example.com" className="link-amber">
+              <a href="mailto:brilscreuseudald@gmail.com" className="link-amber">
                 tuemail@example.com
               </a>
             </p>

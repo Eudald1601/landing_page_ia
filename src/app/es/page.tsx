@@ -318,13 +318,13 @@ export default function HomeEs() {
               quieres explorar qué puede hacer la IA por tu negocio, podemos hacer una
               llamada corta de 20 minutos y verlo juntos.
             </p>
-            <a href="mailto:tuemail@example.com" className="btn-primary contact-cta">
+            <a href="mailto:brilscreuseudald@gmail.com" className="btn-primary contact-cta">
               Escríbeme ahora
               <span className="btn-arrow">→</span>
             </a>
             <p className="contact-note">
               O contáctame directamente en{" "}
-              <a href="mailto:tuemail@example.com" className="link-amber">
+              <a href="mailto:brilscreuseudald@gmail.com" className="link-amber">
                 tuemail@example.com
               </a>
             </p>
