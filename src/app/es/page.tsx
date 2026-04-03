@@ -325,7 +325,7 @@ export default function HomeEs() {
             <p className="contact-note">
               O contáctame directamente en{" "}
               <a href="mailto:brilscreuseudald@gmail.com" className="link-amber">
-                tuemail@example.com
+                brilscreuseudald@gmail.com
               </a>
             </p>
           </div>
