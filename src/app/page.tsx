@@ -92,7 +92,13 @@ export default function Home() {
       <nav className="site-nav">
         <div className="container nav-inner">
           <div className="nav-logo">
-            <span className="nav-logo-mark">T</span>
+            <span className="nav-logo-mark">
+              <img
+                src="/logo-tasklessai.png"
+                alt="Logo TasklessAI"
+                className="h-7 w-7 rounded-md object-cover"
+              />
+            </span>
             TasklessAI
           </div>
           <div className="nav-links">
