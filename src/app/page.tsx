@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -93,10 +94,12 @@ export default function Home() {
         <div className="container nav-inner">
           <div className="nav-logo">
             <span className="nav-logo-mark">
-              <img
+              <Image
                 src="/logo-tasklessai.png"
                 alt="Logo TasklessAI"
-                className="h-7 w-7 rounded-md object-cover"
+                width={28}
+                height={28}
+                className="rounded-md object-cover"
               />
             </span>
             TasklessAI
