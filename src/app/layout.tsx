@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Fraunces, DM_Sans } from "next/font/google";
 import "./globals.css";
+import { CloudflareBeacon } from "./cloudflare-beacon";
 
 const fraunces = Fraunces({
   variable: "--font-fraunces",
@@ -30,6 +31,9 @@ export default function RootLayout({
       lang="ca"
       className={`${fraunces.variable} ${dmSans.variable}`}
     >
+      <head>
+        <CloudflareBeacon />
+      </head>
       <body>{children}</body>
     </html>
   );
